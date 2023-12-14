@@ -1,0 +1,8 @@
+alert('') -> funcao que exibe uma msg na pagina
+document.querySelector('') -> funcao
+
+o document se refere a pagina atual do site
+
+document.querySelector('tag') -> acessar tag
+document.querySelector('.classe') -> acessar classe
+document.querySelector('#id') -> acessar id
