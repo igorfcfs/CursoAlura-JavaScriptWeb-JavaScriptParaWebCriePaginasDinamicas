@@ -1,0 +1,7 @@
+copiar o codigo para cada elemento nao e uma boa pratica, pois imagine que temos um piano de 88 teclas, teriamos que referenciar os botoes manualmente, para resolver isso utilizamos lista
+
+document.querySelectorAll('');
+
+referencia constante -> const <nome_referencia> = <referencia>
+
+para acessar uma propriedade de uma lista: lista[i].<property> = <funcao>
