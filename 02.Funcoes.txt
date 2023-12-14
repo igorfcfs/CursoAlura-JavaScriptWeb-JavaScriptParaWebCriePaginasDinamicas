@@ -1,0 +1,7 @@
+function nomeFuncao(){
+	//codigo
+}
+
+document.querySelector('.classe').onclick = nomeFuncao; -> armazena a referência da funcao na propriedade onclick da classe encontrada pelo querySelector
+
+document.querySelector('.classe').onclick = nomeFuncao(); -> armazena e executa a funcao instantaneamente assim que o usuario entra na pagina (e isso os navegadores nao permitem, por isso ele retornara um erro)
