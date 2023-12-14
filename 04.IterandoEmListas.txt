@@ -1,0 +1,37 @@
+let <variavel>;
+let significa q a referencia recebera sempre um valor novo
+
+console.log(<mensagem>); -> exibe uma mensagem no console do navegador
+
+Lacos:
+
+-Enquanto:
+while (<condicao_booleana>){
+	// conteudo
+}
+
+-Para:
+for (<contador>;<condicao>;<incremento>){
+	conteudo
+}
+
+funcoes com parametros
+
+funcion (<parametro>){
+	//codigo
+}
+
+funcao anonima:
+Para o navegador nao retornar aquele erro, precisamos criar uma funcao anonima para listaDeTeclas[contador].onclick, pois se fizermos listaDeTeclas[contador].onclick = tocaSom('#som_tecla_pom') o script tentara rodar os audios instantaneamente.
+
+Para resolvermos isso, faremos:
+listaDeTeclas[contador].onclick = function () {
+	tocaSom('#som_tecla_pom')
+}
+
+lista[i].classList(); -> retorna as propriedades do elemento de uma lista
+
+
+Textos/String dinamicos(as):
+const pessoa = 'igor';
+console.log(`ola $(pessoa)`)
