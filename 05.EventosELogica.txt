@@ -1,0 +1,10 @@
+operadores logicos
+
+== X ===
+
+1 == "1" -> true, compara somente o valor
+1 === "1" -> false, compara o valor e o tipo do dado
+
+|| -> ou
+&& -> e
+!= -> nao igual = diferente
